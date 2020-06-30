@@ -1,0 +1,57 @@
+.main-page {    
+    display: flex;    
+    justify-content: center;
+}
+
+.main-page-content {    
+    width: 100%;
+    max-width: 1000px;
+    height: 100vh;    
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    height: 15%;        
+    justify-content: space-between;
+    
+}
+
+.open {
+    display: flex;
+}
+
+.open img {
+    padding: 7px;
+}
+
+.main-nav {
+    background: #fff;
+}
+
+.main-nav .logo {
+    font-family: serif;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.main-nav .menu-btn {    
+    width: 40px;
+    height: 40px;    
+    border: solid;
+    border-width: 1px;
+    border-color: #ccc;
+    padding: 5px;    
+    cursor: pointer;
+}
+
+.botton-nav {
+    height: 15%;
+    
+}
+
+@media (max-width: 1100px) {
+    .main-page-content {
+        width: 90%;
+    }
+}

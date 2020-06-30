@@ -1,0 +1,39 @@
+.botton-nav {
+    background: #ffffff;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+    display: flex;
+    justify-content: center;
+}
+
+.botton-nav-container {    
+    max-width: 1000px;   
+    width: 100%;
+
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    cursor: pointer;
+}
+
+@media (max-width: 1100px) {
+    .botton-nav-container {
+        width: 90%;
+    }
+}
+
+@media (max-width: 720px) {    
+    .botton-nav-container {        
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 400px) {
+    .botton-nav-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
